@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://steamlinedesign.com/suchi/qls/graphql`,
   },
   plugins: [
     {
@@ -15,6 +15,21 @@ module.exports = {
         display: 'swap',
       },
     },
+    {
+      resolve: `gatsby-source-wordpress`,
+      options: {
+          // Specify the URL of the WordPress source
+          url: `https://steamlinedesign.com/suchi/qls/graphql`,
+          protocol: `https`,
+          // Indicates if a site is hosted on WordPress.com
+          hostingWPCOM: false,
+          // Specify which URL structures to fetch
+          includedRoutes: [
+            '**/posts',
+            '**/tags',
+            '**/categories'
+          ]
+      }
+  }
   ],
 }
-

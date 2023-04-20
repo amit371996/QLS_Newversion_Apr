@@ -6,7 +6,7 @@ import logo from '../../image/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars} from '@fortawesome/free-solid-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
-
+import { useStaticQuery, graphql } from 'gatsby';
 
 export default function NavBar(props) {
   library.add(faBars)
@@ -14,6 +14,21 @@ export default function NavBar(props) {
   const handleClick=()=>{
     setShowModal(true);
   }
+  const data = useStaticQuery(graphql`
+    query MyQuery {
+      wpMenu(id: {eq: "dGVybToz"}) {
+        id
+        menuItems {
+          nodes {
+            id
+            label
+            url
+          }
+        }
+      }
+    }
+  `);
+  const menuItems = data.wpMenu.menuItems.nodes;
 //   const [position, setPosition] = useState(window.pageYOffset)
 //   const [visible, setVisible] = useState(true) 
 //   useEffect(()=> {
@@ -52,7 +67,12 @@ export default function NavBar(props) {
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                <li class="nav-item">
+              {menuItems.map(item => (
+            <li key={item.id} class="nav-item">
+              <a href={item.url} className="nav-link" aria-current="page" activeClassName="active">{item.label}</a>
+            </li>
+          ))}
+                {/* <li class="nav-item">
                   <Link to="/" class="nav-link active" aria-current="page" activeClassName="active">Home</Link>
                   {` `}
 
@@ -71,7 +91,7 @@ export default function NavBar(props) {
                   <Link to="/app/solution" class="nav-link" activeClassName="active">Solution</Link>
                   {` `}
 
-                </li>
+                </li> */}
 
 
                 <div /*style={navev}*/></div>
