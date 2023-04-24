@@ -1,9 +1,9 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 // import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { Link } from 'gatsby'
+import { Link, StaticQuery } from 'gatsby'
 import frame1 from '../../image/Frame1.png';
 import frame2 from '../../image/Frame2.png';
 import frame3 from '../../image/Frame3.png';
@@ -16,12 +16,29 @@ import icon2 from '../../image/map.png';
 import icon3 from '../../image/map.png';
 import icon4 from '../../image/phone.png';
 import icon5 from '../../image/phone.png';
+import {graphql } from 'gatsby';
 
 export default function Footer() {
 	library.add(faEnvelope)
 
 	return (
-		<>
+		<StaticQuery
+		query={graphql`
+		query {
+		  wpMenu(id: {eq: "dGVybToz"}) {
+			id
+			menuItems {
+			  nodes {
+				id
+				label
+				url
+			  }
+			}
+		  }
+		  }
+		`}
+		render={data=>(
+			<>
 			<section class="section">
 				<div class="main_fot bhg">
 					<footer class="footer_wrap">
@@ -89,12 +106,47 @@ export default function Footer() {
 
 										<div id="myDIV" class="ythfr">
 											<ul>
-												<li class="btn_list active_list"><Link to='/'>Home</Link></li>
-												<li class="btn_list"><Link to='/app/about'>About Us</Link></li>
-												<li class="btn_list"><Link to='/app/whatsnew'>What’s New</Link></li>
-												<li class="btn_list"><Link to='/app/solution'>Solution</Link></li>
-											
-												<li class="btn_list"><Link to='/app/solution'>Privacy Policy</Link></li>
+												{data &&
+													data.wpMenu &&
+													data.wpMenu.menuItems &&
+													data.wpMenu.menuItems.nodes.map((prop, i) => {
+														return (
+															<>
+																{
+																	<>
+																		{prop.label == "Home" ? (
+																			<li class="btn_list">
+																				<Link
+																					to={"/"}
+
+																					activeClassName="active"
+																				>
+																					{prop.label}
+																				</Link>
+																			</li>
+																		) : (
+																			<li class="btn_list">
+																				<Link
+																					to={
+																						"/" +
+																						prop.label
+																							.replace(/\s+/g, "_")
+																							.replace("'", "")
+																							.toLowerCase()
+																					}
+
+																					activeClassName="active"
+																				>
+																					{prop.label}
+																				</Link>
+																			</li>
+																		)}
+																	</>
+																}
+															</>
+														);
+													})}
+
 											</ul>
 
 										</div>
@@ -105,7 +157,7 @@ export default function Footer() {
 											<div class="kn_left_list">
 												<div class="lefti_text">
 													<div class="inner_l">
-														 <img src={icon}/> 
+														<img src={icon} />
 													</div>
 												</div>
 												<div class="righti_text">
@@ -118,7 +170,7 @@ export default function Footer() {
 											<div class="kn_left_list">
 												<div class="lefti_text">
 													<div class="inner_l">
-													<img src={icon2}/> 
+														<img src={icon2} />
 													</div>
 												</div>
 												<div class="righti_text">
@@ -131,7 +183,7 @@ export default function Footer() {
 											<div class="kn_left_list">
 												<div class="lefti_text">
 													<div class="inner_l">
-													<img src={icon3}/> 
+														<img src={icon3} />
 													</div>
 												</div>
 												<div class="righti_text">
@@ -148,7 +200,7 @@ export default function Footer() {
 											<div class="kn_left_list">
 												<div class="lefti_text">
 													<div class="inner_l">
-													<img src={icon4}/> 
+														<img src={icon4} />
 													</div>
 												</div>
 												<div class="righti_text">
@@ -161,7 +213,7 @@ export default function Footer() {
 											<div class="kn_left_list">
 												<div class="lefti_text">
 													<div class="inner_l">
-													<img src={icon5}/> 
+														<img src={icon5} />
 													</div>
 												</div>
 												<div class="righti_text">
@@ -195,8 +247,8 @@ export default function Footer() {
 
 										</div>
 									</div>
-									
-									
+
+
 
 								</div>
 							</div>
@@ -205,6 +257,11 @@ export default function Footer() {
 				</div>
 			</section>
 		</>
+		)
+			
+		}
+		
+	/>
 	)
 }
 

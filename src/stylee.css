@@ -1257,9 +1257,9 @@ background: #00D4FF;
       box-sizing: border-box;
   }
    
-     .mar_yes {
+     /* .mar_yes {
       margin-bottom: 100px;
-  }
+  } */
   .image_tema{
       position: relative;
   }
@@ -3076,3 +3076,5 @@ overflow: hidden !important;}
         background-image:none !important;
       }      
 
+.mar_yes .teambx{margin-bottom: 100px;}
+.mar_none .teambx{margin-bottom: 100px;}
