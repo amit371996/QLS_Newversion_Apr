@@ -58,266 +58,343 @@ const Solution = () => (
 							</div>
 						</div>
 					</section>
-					<section class="section">
-						<div class="soltion_sec">
+					<section class="section main_jngbv12">
+						<div class="solution_secanm" >
 							<div class="container">
 								<div class="row align-items-center">
 									<div class="col-md-5">
-										<div class="image_side">
-											<div class="image_inner">
-												<img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/Mask-group-5.png" alt="MINING" />
-											</div>
-											<div class="image_rowund_se">
-												<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/round.svg" alt="round" />
-											</div>
-											<div class="imge_icons">
-												<div class="image_gnbdd">
-													<div class="roghrtf">
-
-														<div class="ghbd">
-															<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/star.svg" />
-														</div>
-														<div class="ghbd1">
-															<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/bloone.svg" />
-														</div>
-														<div class="ghbd2">
-															<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/eardff.svg" />
-														</div>
-														<div class="ghbd3">
-															<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/wav.svg" />
-														</div>
-														<div class="ghbd4">
-															<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/moon.svg" />
-														</div>
-													</div>
+										<div class="image_sidebx">
+											<div class="image_innerbx">
+												<img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/Mask-group-5.png" alt="MINING"/>        
 												</div>
+													<div class="image_rowund_sebx">
+														<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/round.svg" alt="round"/>
+													</div>
+													<div class="imge_iconsbx">
+														<div class="image_gnbddbx">
+															<div class="roghrtfbx">
+
+																<div class="ghbdbx">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/star.svg"/>
+																</div>
+																<div class="ghbdbx1">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/bloone.svg"/>
+																</div>
+																<div class="ghbdbx2">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/eardff.svg"/>
+																</div>
+																<div class="ghbdbx3">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/wav.svg"/>
+																</div>
+																<div class="ghbdbx4">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/moon.svg"/>
+																</div>
+															</div>
+														</div>
 
 
+													</div>
+											</div>
+										</div>
+										<div class="col-md-7">
+											<div class="soltion_newsbx">
+												<div class="kng_hbx">
+													<h2>MINING</h2>
+													<p>Revolutionise the future of critical earth mineral discovery and extraction</p>
+													<ul>
+														<li>Reduce CAPEX for exploratory critical earth mining and improve ESG using artificial intelligence, high-resolution satellite images, data, and sensors</li>
+														<li>Interpretation of aeromagnetic and satellite imagery data to produce structural and geological maps that help target deposits</li>
+														<li>Improve demand and supply chain mapping in mining commodities by monitoring different aspects of the supply chain, ranging from mining activity, port inventory and industrial plant production </li>
+														<li>Near real-time emission monitoring in mining</li>
+													</ul>              </div>
 											</div>
 										</div>
 									</div>
-									<div class="col-md-7">
-										<div class="soltion_news">
-											<div class="kng_h">
-												<h2>MINING</h2>
-												<p>Revolutionise the future of critical earth mineral discovery and extraction</p>
-												<ul>
-													<li>Reduce CAPEX for exploratory critical earth mining and improve ESG using artificial intelligence, high-resolution satellite images, data, and sensors</li>
-													<li>Interpretation of aeromagnetic and satellite imagery data to produce structural and geological maps that help target deposits</li>
-													<li>Improve demand and supply chain mapping in mining commodities by monitoring different aspects of the supply chain, ranging from mining activity, port inventory and industrial plant production </li>
-													<li>Near real-time emission monitoring in mining</li>
-												</ul>              </div>
-										</div>
-									</div>
-								</div>
 
-							</div>
-						</div>
-					</section>
-					<section class="section">
-						<div class="secatioonteam bhg">
-							<div class="jhg_tfrd paddint_top padding_Btnh">
-								<div class="container">
-									<div class="row">
-										<div class="col-md-12">
-											<div class="main_heading">
-												<div class="our_about_wrap text-start">
-													<h2>The creative  </h2>
-													<h4 class="text-start">Team behind the door</h4>                         </div>
-											</div>
-										</div>
-									</div>
-									<div class="our_vba">
-										<div class="row mar_yes">
-
-
-											<div class="col-xsm-12 col-sm-6 col-md-6 col-lg-3">
-												<div class="image_tema">
-													<div class="f1_container">
-														<div class="f1_card shadow">
-															<div class="front face">
-																<img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/raj1.png" />
-															</div>
-															<div class="back face center">
-																<img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/Raj01.png" />
-															</div>
-														</div>
-													</div>
-													<div class="details">
-														<div class="left_part_name">
-															<h4>Raj Karan Gautam</h4>
-															<span>Founder and CEO</span>
-														</div>
-														<div class="right_part_name">
-															<a href="https://www.linkedin.com/in/rajkarangautam/" target="_blank"><img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/linkdin.png" /></a>
-														</div>
-													</div>
-												</div>
-											</div>
-
-
-											<div class="col-xsm-12 col-sm-6 col-md-6 col-lg-3">
-												<div class="image_tema">
-													<div class="f1_container">
-														<div class="f1_card shadow">
-															<div class="front face">
-																<img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/Rajen1.png" />
-															</div>
-															<div class="back face center">
-																<img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/Rajen01.png" />
-															</div>
-														</div>
-													</div>
-													<div class="details">
-														<div class="left_part_name">
-															<h4>Rajen Biswa</h4>
-															<span>Engineering Team Lead (Space &amp; Technology)</span>
-														</div>
-														<div class="right_part_name">
-															<a href="https://www.linkedin.com/in/rajenbiswa/" target="_blank"><img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/linkdin.png" /></a>
-														</div>
-													</div>
-												</div>
-											</div>
-
-
-											<div class="col-xsm-12 col-sm-6 col-md-6 col-lg-3">
-												<div class="image_tema">
-													<div class="f1_container">
-														<div class="f1_card shadow">
-															<div class="front face">
-																<img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/Munjal1.png" />
-															</div>
-															<div class="back face center">
-																<img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/Munjal01.png" />
-															</div>
-														</div>
-													</div>
-													<div class="details">
-														<div class="left_part_name">
-															<h4>Munjal Dave</h4>
-															<span>Project Manager (IT &amp; Development)</span>
-														</div>
-														<div class="right_part_name">
-															<a href="https://www.linkedin.com/in/munjaldave/" target="_blank"><img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/linkdin.png" /></a>
-														</div>
-													</div>
-												</div>
-											</div>
-
-
-											<div class="col-xsm-12 col-sm-6 col-md-6 col-lg-3">
-												<div class="image_tema">
-													<div class="f1_container">
-														<div class="f1_card shadow">
-															<div class="front face">
-																<img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/Thej1.png" />
-															</div>
-															<div class="back face center">
-																<img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/Thej01.png" />
-															</div>
-														</div>
-													</div>
-													<div class="details">
-														<div class="left_part_name">
-															<h4>Thejesh</h4>
-															<span>AI Team Lead</span>
-														</div>
-														<div class="right_part_name">
-															<a href="https://www.linkedin.com/in/thejeshspoojary/" target="_blank"><img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/linkdin.png" /></a>
-														</div>
-													</div>
-												</div>
-											</div>
-
-
-
-
-
-
-
-
-										</div>
-
-										<div class="row mar_none">
-											<div class="col-xsm-12 col-sm-6 col-md-6 col-lg-3">
-												<div class="image_tema">
-													<div class="f1_container">
-														<div class="f1_card shadow">
-															<div class="front face">
-																<img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/sree1.png" />
-															</div>
-															<div class="back face center">
-																<img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/sree01.png" />
-															</div>
-														</div>
-													</div>
-													<div class="details">
-														<div class="left_part_name">
-															<h4>Sreejith</h4>
-															<span>Data Team Lead</span>
-														</div>
-														<div class="right_part_name">
-															<a href="https://www.linkedin.com/in/sreejith-parameswaran/" target="_blank"><img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/linkdin.png" /></a>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="col-xsm-12 col-sm-6 col-md-6 col-lg-3">
-												<div class="image_tema">
-													<div class="f1_container">
-														<div class="f1_card shadow">
-															<div class="front face">
-																<img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/Sumer2-2.png" />
-															</div>
-															<div class="back face center">
-																<img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/Sumer2.png" />
-															</div>
-														</div>
-													</div>
-													<div class="details">
-														<div class="left_part_name">
-															<h4>Sumer Kumawat</h4>
-															<span>VP Marketing &amp; Finance</span>
-														</div>
-														<div class="right_part_name">
-															<a href="https://www.linkedin.com/in/kumawatsumer/" target="_blank"><img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/linkdin.png" /></a>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="col-xsm-12 col-sm-6 col-md-6 col-lg-3">
-												<div class="image_tema">
-													<div class="f1_container">
-														<div class="f1_card shadow">
-															<div class="front face">
-																<img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/Ariane1.png" />
-															</div>
-															<div class="back face center">
-																<img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/Ariane01.png" />
-															</div>
-														</div>
-													</div>
-													<div class="details">
-														<div class="left_part_name">
-															<h4>Ariane Platell</h4>
-															<span>Head of Communications &amp; Public Affairs</span>
-														</div>
-														<div class="right_part_name">
-															<a href="https://www.linkedin.com/in/ariane-platell-a1411933/" target="_blank"><img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/linkdin.png" /></a>
-														</div>
-													</div>
-												</div>
-											</div>
-
-
-										</div>
-
-									</div>
 								</div>
 							</div>
-						</div>
 					</section>
+					<section class="section main_jngbv12">
+						<div class="solution_secanm" >
+							<div class="container">
+								<div class="row align-items-center">
+									<div class="col-md-5">
+										<div class="image_sidebx">
+											<div class="image_innerbx">
+												<img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/agri.png" alt="MINING"/>        
+												</div>
+													<div class="image_rowund_sebx">
+														<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/round.svg" alt="round"/>
+													</div>
+													<div class="imge_iconsbx">
+														<div class="image_gnbddbx">
+															<div class="roghrtfbx">
+
+																<div class="ghbdbx">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/star.svg"/>
+																</div>
+																<div class="ghbdbx1">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/bloone.svg"/>
+																</div>
+																<div class="ghbdbx2">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/eardff.svg"/>
+																</div>
+																<div class="ghbdbx3">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/wav.svg"/>
+																</div>
+																<div class="ghbdbx4">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/moon.svg"/>
+																</div>
+															</div>
+														</div>
+
+
+													</div>
+											</div>
+										</div>
+										<div class="col-md-7">
+											<div class="soltion_newsbx">
+												<div class="kng_hbx">
+													<h2>AGRICULTURE</h2>
+													<p>Develop next-generation agri-tech solutions, including precision farming, agri-insurance and agriculture monitoring</p>
+													<ul>
+														<li>Use real-time data relating crop condition, as well as information on soil, carbon levels, air and temperature to provide analytic insights on crop rotation, planting and harvesting times</li>
+														<li>Interpretation of aeromagnetic and satellite imagery data to produce structural and geological maps that help target deposits</li>
+														<li>Improve demand and supply chain mapping in mining commodities by monitoring different aspects of the supply chain, ranging from mining activity, port inventory and industrial plant production </li>
+														<li>Near real-time emission monitoring in mining</li>
+													</ul>              </div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+					</section>
+					<section class="section main_jngbv12">
+						<div class="solution_secanm" >
+							<div class="container">
+								<div class="row align-items-center">
+									<div class="col-md-5">
+										<div class="image_sidebx">
+											<div class="image_innerbx">
+												<img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/infra-1.png" alt="MINING"/>        
+												</div>
+													<div class="image_rowund_sebx">
+														<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/round.svg" alt="round"/>
+													</div>
+													<div class="imge_iconsbx">
+														<div class="image_gnbddbx">
+															<div class="roghrtfbx">
+
+																<div class="ghbdbx">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/star.svg"/>
+																</div>
+																<div class="ghbdbx1">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/bloone.svg"/>
+																</div>
+																<div class="ghbdbx2">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/eardff.svg"/>
+																</div>
+																<div class="ghbdbx3">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/wav.svg"/>
+																</div>
+																<div class="ghbdbx4">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/moon.svg"/>
+																</div>
+															</div>
+														</div>
+
+
+													</div>
+											</div>
+										</div>
+										<div class="col-md-7">
+											<div class="soltion_newsbx">
+												<div class="kng_hbx">
+													<h2>INFRASTRUCTURE</h2>
+													<p>Improve management of infrastructure risk through proactive monitoring</p>
+													<ul>
+														<li>Reduce CAPEX for exploratory critical earth mining and improve ESG using artificial intelligence, high-resolution satellite images, data, and sensors</li>
+														<li>Interpretation of aeromagnetic and satellite imagery data to produce structural and geological maps that help target deposits</li>
+														<li>Improve demand and supply chain mapping in mining commodities by monitoring different aspects of the supply chain, ranging from mining activity, port inventory and industrial plant production </li>
+														<li>Near real-time emission monitoring in mining</li>
+													</ul>              </div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+					</section>
+					<section class="section main_jngbv12">
+						<div class="solution_secanm" >
+							<div class="container">
+								<div class="row align-items-center">
+									<div class="col-md-5">
+										<div class="image_sidebx">
+											<div class="image_innerbx">
+												<img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/envirment.png" alt="MINING"/>        
+												</div>
+													<div class="image_rowund_sebx">
+														<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/round.svg" alt="round"/>
+													</div>
+													<div class="imge_iconsbx">
+														<div class="image_gnbddbx">
+															<div class="roghrtfbx">
+
+																<div class="ghbdbx">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/star.svg"/>
+																</div>
+																<div class="ghbdbx1">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/bloone.svg"/>
+																</div>
+																<div class="ghbdbx2">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/eardff.svg"/>
+																</div>
+																<div class="ghbdbx3">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/wav.svg"/>
+																</div>
+																<div class="ghbdbx4">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/moon.svg"/>
+																</div>
+															</div>
+														</div>
+
+
+													</div>
+											</div>
+										</div>
+										<div class="col-md-7">
+											<div class="soltion_newsbx">
+												<div class="kng_hbx">
+													<h2>ENVIRONMENT</h2>
+													<p>Protecting the environment through accurate earth observation datasets</p>
+													<ul>
+														<li>Reduce CAPEX for exploratory critical earth mining and improve ESG using artificial intelligence, high-resolution satellite images, data, and sensors</li>
+														<li>Interpretation of aeromagnetic and satellite imagery data to produce structural and geological maps that help target deposits</li>
+														<li>Improve demand and supply chain mapping in mining commodities by monitoring different aspects of the supply chain, ranging from mining activity, port inventory and industrial plant production </li>
+														<li>Near real-time emission monitoring in mining</li>
+													</ul>              </div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+					</section>
+					<section class="section main_jngbv12">
+						<div class="solution_secanm" >
+							<div class="container">
+								<div class="row align-items-center">
+									<div class="col-md-5">
+										<div class="image_sidebx">
+											<div class="image_innerbx">
+												<img src="https://www.qlspace.com.au/wp-content/uploads/2023/04/Mask-group-4.png" alt="MINING"/>        
+												</div>
+													<div class="image_rowund_sebx">
+														<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/round.svg" alt="round"/>
+													</div>
+													<div class="imge_iconsbx">
+														<div class="image_gnbddbx">
+															<div class="roghrtfbx">
+
+																<div class="ghbdbx">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/star.svg"/>
+																</div>
+																<div class="ghbdbx1">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/bloone.svg"/>
+																</div>
+																<div class="ghbdbx2">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/eardff.svg"/>
+																</div>
+																<div class="ghbdbx3">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/wav.svg"/>
+																</div>
+																<div class="ghbdbx4">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/moon.svg"/>
+																</div>
+															</div>
+														</div>
+
+
+													</div>
+											</div>
+										</div>
+										<div class="col-md-7">
+											<div class="soltion_newsbx">
+												<div class="kng_hbx">
+													<h2>DISASTER AND RECOVERY</h2>
+													<p>Revolutionise the future of critical earth mineral discovery and extraction</p>
+													<ul>
+														<li>Reduce CAPEX for exploratory critical earth mining and improve ESG using artificial intelligence, high-resolution satellite images, data, and sensors</li>
+														<li>Interpretation of aeromagnetic and satellite imagery data to produce structural and geological maps that help target deposits</li>
+														<li>Improve demand and supply chain mapping in mining commodities by monitoring different aspects of the supply chain, ranging from mining activity, port inventory and industrial plant production </li>
+														<li>Near real-time emission monitoring in mining</li>
+													</ul>              </div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+					</section>
+					<section class="section main_jngbv12">
+						<div class="solution_secanm" >
+							<div class="container">
+								<div class="row align-items-center">
+									<div class="col-md-5">
+										<div class="image_sidebx">
+											<div class="image_innerbx">
+												<img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/diffence.png" alt="MINING"/>        
+												</div>
+													<div class="image_rowund_sebx">
+														<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/round.svg" alt="round"/>
+													</div>
+													<div class="imge_iconsbx">
+														<div class="image_gnbddbx">
+															<div class="roghrtfbx">
+
+																<div class="ghbdbx">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/star.svg"/>
+																</div>
+																<div class="ghbdbx1">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/bloone.svg"/>
+																</div>
+																<div class="ghbdbx2">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/eardff.svg"/>
+																</div>
+																<div class="ghbdbx3">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/wav.svg"/>
+																</div>
+																<div class="ghbdbx4">
+																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/moon.svg"/>
+																</div>
+															</div>
+														</div>
+
+
+													</div>
+											</div>
+										</div>
+										<div class="col-md-7">
+											<div class="soltion_newsbx">
+												<div class="kng_hbx">
+													<h2>DEFENCE AND SECURITY</h2>
+													<p>Revolutionise the future of critical earth mineral discovery and extraction</p>
+													<ul>
+														<li>Reduce CAPEX for exploratory critical earth mining and improve ESG using artificial intelligence, high-resolution satellite images, data, and sensors</li>
+														<li>Interpretation of aeromagnetic and satellite imagery data to produce structural and geological maps that help target deposits</li>
+														<li>Improve demand and supply chain mapping in mining commodities by monitoring different aspects of the supply chain, ranging from mining activity, port inventory and industrial plant production </li>
+														<li>Near real-time emission monitoring in mining</li>
+													</ul>              </div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+					</section>
+					
 					<section class="section">
 						<div class="main_fot bhg">
 							<footer class="footer_wrap">
