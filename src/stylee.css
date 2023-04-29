@@ -126,6 +126,7 @@
   }*/
   .btn_g {
       display: inline-block;
+      float: right;
   }
   .btn_g a {
       background: #00D4FF;
